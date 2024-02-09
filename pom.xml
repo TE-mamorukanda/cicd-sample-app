@@ -88,13 +88,13 @@
 	            <version>2.13.0</version>
 	            <configuration>
 	                <schemaVersion>v2</schemaVersion>
-	                <subscriptionId>5664acf5-1699-4260-aed2-0f9a147e40eb</subscriptionId>
-	                <resourceGroup>ICT-DevToolWG</resourceGroup>
-	                <appName>app-ict-devtoolwg</appName>
+	                <subscriptionId>${subscriptionId}</subscriptionId>
+	                <resourceGroup>${subscriptionGroup}</resourceGroup>
+	                <appName>${appName}</appName>
 	                <pricingTier>B1</pricingTier>
 	                <region>japaneast</region>
-	                <appServicePlanName>ASP-ICTDevToolWG-9371</appServicePlanName>
-                    <appServicePlanResourceGroup>ICT-DevToolWG</appServicePlanResourceGroup>
+	                <appServicePlanName>${appServicePlan}</appServicePlanName>
+                    <appServicePlanResourceGroup>${subscriptionGroup}</appServicePlanResourceGroup>
 	                <runtime>
 	                    <os>Linux</os>
 	                    <javaVersion>Java 17</javaVersion>
