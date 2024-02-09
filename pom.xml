@@ -88,13 +88,13 @@
 	            <version>2.13.0</version>
 	            <configuration>
 	                <schemaVersion>v2</schemaVersion>
-	                <subscriptionId>${subscriptionId}</subscriptionId>
-	                <resourceGroup>${subscriptionGroup}</resourceGroup>
+	                <subscriptionId>${subscription}</subscriptionId>
+	                <resourceGroup>${ResourceGroup}</resourceGroup>
 	                <appName>${appName}</appName>
 	                <pricingTier>B1</pricingTier>
 	                <region>japaneast</region>
 	                <appServicePlanName>${appServicePlan}</appServicePlanName>
-                    <appServicePlanResourceGroup>${subscriptionGroup}</appServicePlanResourceGroup>
+                    <appServicePlanResourceGroup>${ResourceGroup}</appServicePlanResourceGroup>
 	                <runtime>
 	                    <os>Linux</os>
 	                    <javaVersion>Java 17</javaVersion>
